@@ -1,4 +1,17 @@
-# RDNA
+# Anomaly Detection in Industrial Images via Reconstruction Discriminant Networks with Adversarial Learning
+
+This paper is submited to The Visual Computer.
+
+
+## Authors
+
+Xiaoru Liu
+, Shifeng Li 
+, Yan Cheng
+, Xi Luo
+Corresponding author: Shifeng Li limax_2008@outlook.com
+## Description
+In the field of industrial image anomaly detection, traditional manual inspection methods are inefficient and ill-suited for large-scale applications due to the scarcity and irregularity of anomalous samples. Consequently, unsupervised learning approaches based on reconstruction have gained prominence. However, these methods often struggle to capture all types of anomalies, particularly small ones. To address this, we propose Reconstruction Discriminant Networks with Adversarial Training (RDNA) for anomaly detection in industrial images. RDNA comprises reconstruction and discriminant modules, each equipped with a reconstruction network and a discriminator. Through adversarial training, the reconstruction module generates images that closely align with the normal data distribution, while the discriminant module produces accurate anomaly segmentation maps, improving anomaly localization. Experiments on the MVTec AD dataset demonstrate the effectiveness of our approach, achieving image-level AUROC, pixel-level AUROC, and AP scores of 98.5%, 97.6%, and 72.8%, respectively. Our code is publicly available at https://github.com/SVIL2024/RDNA.git.
 
 ## Datasets
 To train on the MVtec Anomaly Detection dataset [download](https://www.mvtec.com/company/research/datasets/mvtec-ad)
